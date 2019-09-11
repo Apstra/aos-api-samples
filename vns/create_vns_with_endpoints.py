@@ -1,3 +1,21 @@
+"""
+Description
+-----------
+
+Creates AOS virtual networks (VN) with server endpoints.
+
+Demonstrates use of graph queries in QE and QL formats.
+
+Expected user input
+-------------------
+
+Environment variables:
+
+ - AOS_URL - URL of AOS instance (e.g. https://172.10.200.3)
+ - AOS_BLUEPRINT_ID - blueprint UUID where VNs will be created
+
+"""
+
 import os
 import requests
 
